@@ -4,7 +4,7 @@
 docker compose up -d 
 
 # 2) terminal 접속
-service ch_server start
+docker-compose exec ch_server clickhouse-client
 ```
 
 ### web ui tabix 접속
